@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+.column{
+    height: 500px;
+    width: 30%;
+    background-color: black;
+    border:3px solid #fff ;
+    float: left;
+}
+h1{
+    color: #fff;
+}
+h1:before{
+    content: "this is an example";
+}
+h1:after{
+    content: "this is an example";
+}
